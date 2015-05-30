@@ -1,0 +1,2 @@
+MainPackage=C:\Estudo\AngularJSCordova\AngularJSCordova\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone_1.0.0.0_anycpu_debug.appx
+ResourcePack=C:\Estudo\AngularJSCordova\AngularJSCordova\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone_1.0.0.0_scale-100.appx
