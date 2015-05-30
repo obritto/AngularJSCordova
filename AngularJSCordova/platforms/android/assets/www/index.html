@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <title>AngularJSCordova</title>
 
+    <!-- AngularJSCordova references -->
+    <link href="css/index.css" rel="stylesheet" />
+
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
@@ -21,22 +29,25 @@
     <script src="controllers/Page2Ctrl.js"></script>
 
 
-    <!-- AngularJSCordova references -->
-    <link href="css/index.css" rel="stylesheet" />
+    <script src="services/authService.js"></script>
+
+
 </head>
 <body ng-app="testeApp">
 
-<a href="#/home">home</a>
-<a href="#/page1">pagina 1</a>
-<a href="#/page2">pagina 2</a>
+    <div class="container-fluid">
 
-<div ng-view="">
+        <a href="#/home">home</a>
+        <a href="#/page1">pagina 1</a>
+        <a href="#/page2">pagina 2</a>
 
-</div>
+        <div ng-view="">
+
+        </div>
+
+        </div>
 
 
 
-
-  
 </body>
 </html>
